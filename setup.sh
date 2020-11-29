@@ -1,3 +1,4 @@
+#!/bin/sh
 echo Creating a macOS KVM with {$1}GBs of storage
 echo Press CTRL+C to stop
 sudo apt-get install qemu uml-utilities virt-manager git \

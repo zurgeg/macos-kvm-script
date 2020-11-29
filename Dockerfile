@@ -1,5 +1,5 @@
-FROM ubuntu:latest
+FROM gitpod/workspace-full-vnc
 
 COPY . .
 
-ENTRYPOINT ['./run.sh','10']
+ENTRYPOINT ["./run.sh","10"]
